@@ -1,0 +1,27 @@
+{
+  "context": {
+    "arch": "rn18",
+    "dataset": "cifar10",
+    "seed": 0,
+    "severities": [
+      5
+    ],
+    "num_batches": 5,
+    "checkpoint": "pretrained/resnet18_cifar10.pth",
+    "wall_seconds": 7.434424638748169
+  },
+  "per_severity": {
+    "5": {
+      "gaussian_noise": {
+        "layer1.0": 10.412958127974514,
+        "layer1.1": 19.001213214171944,
+        "layer2.0": 24.340902713233522,
+        "layer2.1": 28.19132055162265,
+        "layer3.0": 36.18377593736018,
+        "layer3.1": 18.752386063741646,
+        "layer4.0": 13.951212545627445,
+        "layer4.1": 2.636196706294308
+      }
+    }
+  }
+}

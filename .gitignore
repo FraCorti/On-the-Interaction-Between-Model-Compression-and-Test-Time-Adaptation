@@ -1,0 +1,49 @@
+# experiment outputs
+logs/
+logs_*/
+results/
+wandb/
+*.out
+*.err
+*.log
+slurm-*.out
+
+# checkpoints and weights
+pretrained/
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# datasets and data blobs
+data/
+datasets/
+utils/data/
+*.npy
+*.npz
+*.pkl
+*.h5
+
+# figures
+figs/
+figures/
+plots/
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# IDE and local tooling
+.idea/
+.vscode/
+.DS_Store
+
+# secrets
+.env
+.env.*
+*.pem
+.netrc
