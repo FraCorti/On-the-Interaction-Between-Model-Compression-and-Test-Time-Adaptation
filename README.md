@@ -85,7 +85,7 @@ Post-compression accuracy of test-time adaptation (dashed), of the matched super
 If you found this repository useful, please consider citing our work.
 
 ```
-@inproceedings{corti2026interaction,
+@inproceedings{corti2026interactionmodelcompressiontesttime,
   title     = {On the Interaction Between Model Compression and Test-Time Adaptation},
   author    = {Corti, Francesco and Wang, Dong and Kwon, Young D. and Mascolo, Cecilia and Saukh, Olga},
   booktitle = {Conference on Lifelong Learning Agents (CoLLAs)},
